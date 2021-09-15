@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="EditingText" representedClassName="EditingText" syncable="YES" codeGenerationType="class">
+        <attribute name="input" attributeType="String" defaultValueString=""/>
+        <attribute name="output" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" attributeType="Date" defaultDateTimeInterval="653340960" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Icon" representedClassName="Icon" syncable="YES" codeGenerationType="class">
+        <attribute name="text" attributeType="String" defaultValueString=""/>
+        <attribute name="timestamp" attributeType="Date" defaultDateTimeInterval="653335560" usesScalarValueType="NO"/>
+        <attribute name="url" attributeType="String" defaultValueString=""/>
+    </entity>
+    <entity name="Link" representedClassName="Link" syncable="YES" codeGenerationType="class">
+        <attribute name="text" attributeType="String" defaultValueString=""/>
+        <attribute name="timestamp" attributeType="Date" defaultDateTimeInterval="653335560" usesScalarValueType="NO"/>
+        <attribute name="url" attributeType="String" defaultValueString=""/>
+    </entity>
+    <elements>
+        <element name="Icon" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Link" positionX="-60.046875" positionY="97.5625" width="128" height="88"/>
+        <element name="EditingText" positionX="-54" positionY="81" width="128" height="74"/>
+    </elements>
+</model>
